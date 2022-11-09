@@ -37,11 +37,10 @@ function App() {
       <div >
         <h2>My Cart <br/> Total: ${cartTotal}</h2>
           <div className="cart">
-              {cart.map((item, index) => (
+              {cart.map((item) => (
                   <CartItem name={item.name} price={item.price}/>
               ))}
           </div>
-
       </div>
     </div>
   );

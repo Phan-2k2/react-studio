@@ -5,7 +5,7 @@ function CartItem (props) {
     return(
         <div className="cartItem">
             <p>Item: {props.name}</p>
-            <p>Price: {props.price}</p>
+            <p>Quantity: {props.price}</p>
         </div>
     )
 }
