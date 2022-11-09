@@ -1,9 +1,32 @@
 /* Add styling for your page here */
 
 .App {
-
+  text-align: center;
 }
 
 .BakeryItem {
-  
+  color: white;
+  margin: 1vh;
+  padding: 2vh;
+  max-width: 20vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: dimgray;
+}
+.BakeryItemImage {
+  max-width: 20vw;
+}
+.BakeryItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartItem{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
 }
